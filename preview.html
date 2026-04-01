@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Golf Friends - ゴルフ仲間探し</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f8f9fb;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #00c853, #009624);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 24px;
+  background: white;
+  color: #009624;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* SECTION */
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* CARD */
+.features {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* STEPS */
+.steps {
+  text-align: center;
+}
+
+.step {
+  margin-bottom: 20px;
+}
+
+/* CTA */
+.cta {
+  background: #009624;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ccc;
+  margin: 0 10px;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>ゴルフ仲間、すぐ見つかる</h1>
+  <p>近くのゴルファーと簡単マッチング</p>
+  <a class="btn" href="#">App Storeでダウンロード</a>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <h2>Golf Friendsとは？</h2>
+  <p style="text-align:center;">
+    ゴルフ仲間を探して、一緒にプレーできるマッチングアプリです。
+  </p>
+</section>
+
+<!-- FEATURES -->
+<section class="section">
+  <h2>主な機能</h2>
+
+  <div class="features">
+    <div class="card">🏌️ 近くのゴルファーを探す</div>
+    <div class="card">📅 プレー予定を作成</div>
+    <div class="card">💬 チャット機能</div>
+    <div class="card">📍 地域検索</div>
+  </div>
+</section>
+
+<!-- STEPS -->
+<section class="section steps">
+  <h2>使い方</h2>
+
+  <div class="step">① アプリをダウンロード</div>
+  <div class="step">② プロフィール登録</div>
+  <div class="step">③ 仲間とマッチング</div>
+</section>
+
+<!-- SAFETY -->
+<section class="section">
+  <h2>安心・安全</h2>
+  <p style="text-align:center;">
+    通報機能・データ保護・安全なコミュニティ運営
+  </p>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>今すぐ始めよう</h2>
+  <a class="btn" href="#">App Storeでダウンロード</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <a href="privacy.html">プライバシーポリシー</a>
+  <a href="terms.html">利用規約</a>
+  <p>© 2026 Golf Friends</p>
+</footer>
+
+</body>
+</html>
